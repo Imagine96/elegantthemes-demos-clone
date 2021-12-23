@@ -4,6 +4,7 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const main = screen.getAllByRole('main')
+  expect(main).toHaveLength(1)
+  expect(main[0]).toBeInTheDocument()
 });
