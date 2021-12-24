@@ -16,7 +16,7 @@
   h1 {
     @apply text-[80px];
     @apply font-display;
-    @apply uppercase
+    @apply uppercase;
   },
   h2 {
     @apply text-[40px];

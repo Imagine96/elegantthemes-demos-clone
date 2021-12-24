@@ -7,7 +7,10 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
-      'orange': '#dca47d',
+      'orange': {
+        'normal': '#dca47d',
+        'hover': '#DD8C53'
+      },
       'dark-text': '#20292f',
       'dark-bg': '#272830',
       'headings': '#333333',
@@ -15,7 +18,7 @@ module.exports = {
     },
     fontFamily: {
       'display': ['Oswald'],
-      'body': ['"helvetica"'],
+      'body': ['helvetica'],
     },
     
     extend: {},
