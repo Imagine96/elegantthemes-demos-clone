@@ -6,10 +6,10 @@ describe("imgLink component", () => {
   const byLink = "byLink";
   const onLink = "onLink";
   const text = "text";
-  render( <ImgLink byLink={byLink} onLink={onLink} text={text} /> )
+  render(<ImgLink byLink={byLink} onLink={onLink} text={text} />);
 
   it("renders the links", () => {
-      const links = screen.getAllByRole('link')
-      expect(links).toHaveLength(2)  
+    const links = screen.getAllByRole("link");
+    expect(links).toHaveLength(2);
   });
 });
