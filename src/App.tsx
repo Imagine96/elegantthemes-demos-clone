@@ -1,10 +1,12 @@
-import React from 'react';
-import Hero from './componets/hero-section/heroSection';
+import React from "react";
+import Hero from "./componets/hero-section/heroSection";
+import Menu from "./componets/menu-section/menuSection";
 
 function App() {
   return (
     <main className="App ">
-        <Hero />
+      <Hero />
+      <Menu />
     </main>
   );
 }

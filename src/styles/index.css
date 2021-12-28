@@ -10,7 +10,7 @@
 }
 
 @layer base {
-  body{
+  *{
     @apply scroll-smooth
   },
   h1 {
