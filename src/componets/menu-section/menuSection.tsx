@@ -52,8 +52,8 @@ const Menu = () => {
       className={`${classes.container} w-full flex flex-col scroll-smooth items-center -scroll-m-8 py-8`}
     >
       <div className={`${classes.screen} `}></div>
-      <div className=" my-16 space-y-8 w-[70%] z-20 text-center ">
-        <h1 className="text-[80px] font-display uppercase">
+      <div className=" my-16 space-y-8 lg:w-[70%] z-20 text-center ">
+        <h1 className="lg:text-[80px] text-[40px] font-display uppercase">
           {" "}
           WE BELIEVE IN COFFEE <br /> THAT TASTES INCREDIBLE
         </h1>
@@ -64,7 +64,7 @@ const Menu = () => {
           ipsa quae ab illo.
         </p>
       </div>
-      <div className=" grid grid-cols-3 z-20 w-[90%] ">
+      <div className=" grid lg:grid-cols-3 grid-rows-3 gap-4 z-20 w-[90%] ">
         {CARDSIMGSDATA.map((cardData) => {
           return (
             <Card
