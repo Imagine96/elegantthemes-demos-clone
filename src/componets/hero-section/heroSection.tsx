@@ -17,10 +17,10 @@ const Hero = () => {
     >
       <ImgLink text={imgText} byLink={byLink} onLink={onLink} />
       <div
-        className={`${classes.screen} flex flex-col items-center text-white justify-center z-10`}
+        className={`${classes.screen} flex flex-col items-center text-white justify-center z-10 px-12 text-center`}
       >
-        <h1 className="text-[80px] font-display uppercase">COFFE HOUSE</h1>
-        <h3 className=" text-[18px] font-body capitalize font-light ">
+        <h1 className="lg:text-[80px] text-[64px] font-display uppercase">COFFE HOUSE</h1>
+        <h3 className=" text-[18px] font-body capitalize font-light my-4 ">
           Serving Only the Best since 2013
         </h3>
         <a
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       <a href="#menu-section">
         <img
-          className=" absolute bottom-0 left-[50vw] -translate-x-[50%] cursor-pointer transform hover:scale-105 z-20"
+          className=" absolute bottom-0 left-[50vw] -translate-x-[50%] cursor-pointer transform hover:scale-105 z-20 w-10 h-10 "
           src={arrowIcon}
         />
       </a>
