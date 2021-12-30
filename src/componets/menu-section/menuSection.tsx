@@ -64,7 +64,7 @@ const Menu = () => {
           ipsa quae ab illo.
         </p>
       </div>
-      <div className=" grid lg:grid-cols-3 grid-rows-3 gap-4 z-20 w-[90%] ">
+      <div className=" grid lg:grid-cols-3 lg:grid-rows-1 grid-rows-3 gap-4 z-20 w-[90%] ">
         {CARDSIMGSDATA.map((cardData) => {
           return (
             <Card
