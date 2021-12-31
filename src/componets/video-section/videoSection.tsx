@@ -4,7 +4,7 @@ const Video = () => {
   return (
     <section
       id="video-section"
-      className=" bg-dark-bg text-white flex flex-col items-center pt-8 pb-2 "
+      className=" bg-dark-bg text-white flex flex-col items-center pt-8"
     >
       <div className=" text-white flex flex-col items-center space-y-8 mb-8" >
         <h1 className="lg:text-[80px] text-[40px] font-display uppercase " >Our Story</h1>
