@@ -3,6 +3,11 @@ import ImgLink from "../../img-author/imgLink";
 import classes from "./greatCoffeBanner.module.css";
 
 const GreatCoffeBanner = () => {
+
+    const byLink = "https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    const onLink = "https://unsplash.com/s/photos/coffe-beans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    const text = "Brooke Lark"
+
   return (
     <section id="banners-great-coffe" className={` ${classes.container} grid lg:grid-cols-2 lg:pt-40 lg:pb-42 py-8 `}>
       <div></div>
@@ -18,6 +23,7 @@ const GreatCoffeBanner = () => {
           FULL MENU
         </button>
       </div>
+      <ImgLink byLink={byLink} onLink={onLink} text={text} />
     </section>
   );
 };
