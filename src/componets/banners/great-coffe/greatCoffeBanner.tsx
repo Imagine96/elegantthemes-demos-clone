@@ -13,7 +13,7 @@ const GreatCoffeBanner = () => {
       <div></div>
       <div className="flex flex-col justify-end items-center ">
         <h1 className="text-[40px] lg:text-[64px] my-4 font-display uppercase ">GREAT COFFEE</h1>
-        <p className="lg:w-[70%] " >
+        <p className="lg:w-[70%] text-center" >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta

@@ -16,10 +16,11 @@ const Video = () => {
       <div className=" aspect-video w-full bg-orange-hover ">
         <iframe
           className="aspect-video w-full"
+          
           src="https://www.youtube.com/embed/AkXVBRV1vWo"
           title="YouTube video player"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
       </div>

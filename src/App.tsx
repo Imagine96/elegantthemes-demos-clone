@@ -4,6 +4,8 @@ import Menu from "./componets/menu-section/menuSection";
 import Video from "./componets/video-section/videoSection";
 import FreshBeansBanner from "./componets/banners/fresh-beans/freshBeansBanner";
 import GreatCoffeBanner from "./componets/banners/great-coffe/greatCoffeBanner";
+import Description from "./componets/description-section/descriptionSection";
+import GalleryBanner from "./componets/banners/gallery/galleryBanner";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Video />
       <FreshBeansBanner />
       <GreatCoffeBanner />
+      <Description />
+      <GalleryBanner />
     </main>
   );
 }
