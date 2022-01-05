@@ -12,14 +12,14 @@ const Description = () => {
   return (
     <section
       id="description-section"
-      className={`${classes.container} w-full h-[100vh] flex flex-col scroll-smooth items-center justify-center -scroll-m-8 py-8 `}
+      className={`${classes.container} relative w-full h-[100vh] flex flex-col scroll-smooth items-center justify-center -scroll-m-8 py-8 `}
     >
       <div className=" lg:w-[75%] space-y-12 flex flex-col items-center ">
-        <h1 className="text-white lg:text-[64px] text-[40px] font-display uppercase">
+        <h1 className="text-white lg:text-[64px] text-[40px] font-display uppercase z-10 ">
           {" "}
           The Best coffee Shop{" "}
         </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 z-10">
           <h3 className="font-display uppercase lg:text-[48px] text-[36] text-orange-normal">
             Best beans
           </h3>
@@ -30,7 +30,7 @@ const Description = () => {
             Perfect Blend
           </h3>
         </div>
-        <p className="font-body text-white text-center w-[70%] ">
+        <p className="font-body text-white text-center w-[70%] z-10">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -43,7 +43,7 @@ const Description = () => {
           ABOUT US
         </button>
       </div>
-      <div className={`${classes.screeen}`}></div>
+      <div className={`${classes.screen}`}></div>
       <ImgLink byLink={byLink} onLink={onLink} text={text} />
     </section>
   );

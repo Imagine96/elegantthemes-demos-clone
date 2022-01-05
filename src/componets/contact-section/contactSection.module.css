@@ -1,0 +1,9 @@
+.container {
+    background-image: url("/public/vaishnav-chogale-tBhWnu-7chk-unsplash.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+  
