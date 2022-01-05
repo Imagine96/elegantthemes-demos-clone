@@ -38,7 +38,7 @@ const PREVIEWDATA = [
 
 const BlogPreviewSection = () => {
   return (
-    <div className="bg-white flex flex-col items-center p-8" >
+    <section className="bg-white flex flex-col items-center p-8" >
       <h1 className="lg:text-[80px] text-[40px] font-display uppercase" >LATEST FROM OUR BLOG</h1>
       <p className=" font-body text-center text-dark-text my-4 " > Quisque vulputate massa nec feugiat fringilla. Fusce at euismod augue. Maecenas quis leo id lectus vestibulum interdum. </p>
       <div className="my-8 flex flex-col items-center space-y-6 lg:grid lg:grid-cols-3 lg:gap-3 lg:h-[80vh]" >
@@ -62,7 +62,7 @@ const BlogPreviewSection = () => {
       >
         READ MORE
       </button>
-    </div>
+    </section>
   );
 };
 

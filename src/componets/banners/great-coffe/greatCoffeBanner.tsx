@@ -9,7 +9,7 @@ const GreatCoffeBanner = () => {
     const text = "Brooke Lark"
 
   return (
-    <section id="banners-great-coffe" className={` ${classes.container} grid lg:grid-cols-2 lg:pt-40 lg:pb-42 py-8 `}>
+    <section id="banners-great-coffe" className={` ${classes.container} grid lg:grid-cols-2 lg:pt-40 lg:pb-42 py-8 relative `}>
       <div></div>
       <div className="flex flex-col justify-end items-center ">
         <h1 className="text-[40px] lg:text-[64px] my-4 font-display uppercase ">GREAT COFFEE</h1>

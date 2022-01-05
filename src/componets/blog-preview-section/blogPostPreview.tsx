@@ -14,7 +14,7 @@ interface props {
 
 const BlogPostPreview: React.FC<props> = (props: props) => {
   return (
-    <div className=" bg-white w-[80%] shadow-lg p-2 " >
+    <div className=" bg-white w-[80%] shadow-lg p-2 relative" >
       <img src={props.img} alt={`image by ${props.imgLinkText}`} />
       <h3> {props.title} </h3>
       <p> {props.meta} </p>

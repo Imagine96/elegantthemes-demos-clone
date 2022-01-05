@@ -7,6 +7,7 @@ import GreatCoffeBanner from "./componets/banners/great-coffe/greatCoffeBanner";
 import Description from "./componets/description-section/descriptionSection";
 import GalleryBanner from "./componets/banners/gallery/galleryBanner";
 import BlogPreviewSection from "./componets/blog-preview-section/blogPreviewSection";
+import ContactSection from "./componets/contact-section/contactSection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Description />
       <GalleryBanner />
       <BlogPreviewSection />
+      <ContactSection />
     </main>
   );
 }

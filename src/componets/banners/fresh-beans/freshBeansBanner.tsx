@@ -11,7 +11,7 @@ const FreshBeansBanner = () => {
     return(
         <article
             id="banner-fresh-beans"
-            className=" grid lg:grid-cols-2 "
+            className=" grid lg:grid-cols-2"
         >
             <div className="p-4 flex flex-col justify-around items-center text-white" >
                 <h1 className="text-[40px] lg:text-[64px] my-4 font-display uppercase " >FRESH BEANS</h1>
@@ -22,7 +22,7 @@ const FreshBeansBanner = () => {
                     LEARN MORE
                 </button>
             </div>
-            <div className={`${classes.container} invisible lg:visible `} >
+            <div className={`${classes.container} invisible lg:visible relative `} >
                 <ImgLink byLink={byLink} onLink={onLink} text={linkText } />
             </div>
         </article>
